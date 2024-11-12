@@ -1,0 +1,254 @@
+        .table{
+        height: 100%;
+        margin: 10%;
+        }
+        .header-container{
+        display: flex;
+        justify-content: space-between;
+        padding: 2%;
+        }
+        .service_container{
+        display: flex;
+        justify-content: space-between;
+        }
+        .reading{
+        flex:30%;
+        margin:3%;
+        box-shadow: 3px 3px 3px 3px grey;
+        padding: 4%;
+        }
+        .return_book{
+        flex:30%;
+        margin:3%;
+        box-shadow: 3px 3px 3px 3px grey;
+        padding: 4%;
+        }
+        .assistance{
+        flex:30%;
+        margin:3%;
+        box-shadow: 3px 3px 3px 3px grey;
+        padding: 4%;
+        }
+        .section_header{
+        color: black;
+        padding: 3%;
+        }
+        .service_header{
+        color: black;
+        text-align: center;
+        }
+        .service_description{
+        text-align: justify;
+        color: grey;
+        }
+        .section-container{
+        background-color: #f0d0b9;
+        }
+        hr{
+        color: white;
+        }
+        .sub{
+        background-color: #f0d0b9;
+        padding: 2%;
+        }
+        .footer-section-container{
+        display: flex;
+        justify-content: space-evenly;
+        padding: 1%;
+        }
+        .biography{
+        flex:30%;
+        padding: 2%;
+        }
+        .special-links{
+        flex:30%;
+        padding: 2%;
+        justify-content: space-between;
+        }
+        .feedback{
+        flex:30%;
+        padding: 2%;
+        }
+        .bookimage{
+        width: 200px;
+        height: 200px;
+        }
+        .footer{
+        background: linear-gradient(0deg, rgba(240,208,185,1) 1%, rgba(208,148,92,1) 47%);  
+        }
+        .header{
+        background: linear-gradient(0deg, rgba(240,208,185,1) 1%, rgba(208,148,92,1) 47%);  
+        }
+        .footer-links{
+        text-decoration: none;
+        color:  beige;
+        padding: 5%;
+        font-weight: bolder;
+        margin: 3rem 0 ;
+        }
+        .footer-link-1{
+                margin-bottom: 20px;
+        }
+        .header-login{
+        text-decoration:dashed;
+        color:  beige;
+        padding-top: 3%;
+        font-weight: bolder;
+        cursor: pointer;
+        }
+        .header-signup{
+                text-decoration:double;
+                background-color: rgb(224, 170, 87);
+                color:  beige;
+                padding:1rem;
+                border-radius: 20px;
+                font-weight: bolder;
+                cursor: pointer;
+                margin: 0.5rem;
+        }
+        .header-login:hover{
+                color: orange;
+        }
+        .header-signup:hover{
+                color: orange;
+        }
+        .navigation-links{
+        text-decoration: underline;
+        color:  black;
+        font-weight: bolder;
+        }
+        .navigation-links:hover{
+        color: orange;
+        }
+        .navigations{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        gap: 10rem;
+        }
+        .login-form{
+        box-shadow: 4px 4px 4px 4px;
+        padding: 5%;
+        }
+        .underliner{
+        padding: 1%;
+        background-color:#f0d0b9
+        }
+        .login-table{
+                padding: 50px;
+                background: linear-gradient(0deg, rgba(240,208,185,1) 1%, rgb(243, 206, 171) 47%);
+                gap: 50px;
+        }
+        .registration-button{
+                background-color: #c5a187;
+                color: white;
+                padding: 10px 25px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 20px;
+                font-family:Arial, Helvetica, sans-serif
+        }
+        .registration-button-login{
+                background-color: #e6a35f;
+                color: black;
+                padding: 10px 25px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 15px;
+                align-items: end;
+                text-transform: uppercase;
+                letter-spacing: 0.1em;
+                border-radius: 2rem;
+                border: 2rem;
+        }
+        .registration-button-login:hover{
+                letter-spacing: 0.25em;
+                box-shadow: 0 0 35px var(--clr);
+        }
+        .registration-button-account{
+                box-sizing: border-box;
+                background-color: #e6a35f;
+                color: black;
+                padding: 10px 25px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 15px;
+                align-items: end;
+                text-transform: uppercase;
+                letter-spacing: 0.1em;
+                border-radius: 2rem;
+                border: 2rem;
+        }
+        .registration-button-account:hover{
+                letter-spacing: 0.13em;
+                box-shadow: 0 0 35px var(--clr);
+        }
+        .registration-button-signup:hover{
+                letter-spacing: 0.20em;
+                box-shadow: 0 0 35px var(--clr);
+        }
+        .feedback-button{
+                background-color: #e2bc8f;
+                border-radius: 25px;
+                color: black;
+                padding: 10px 25px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 13px;
+                align-items: end;
+                text-transform: uppercase;
+                letter-spacing: 0.1em;
+        }
+        .feedback-button:hover{
+                letter-spacing: 0.20em;
+                box-shadow: 0 0 35px var(--clr);
+        }
+        .books-buttons{
+                gap: 30px;
+        }
+        .input{
+                background-color: white;
+                color: white;
+        }
+        .input-1{
+                padding: 20px;
+                width: 300px;
+                border-radius: 30px;
+                background-color: #d7c8be;
+                border: none;
+        }
+        .input-2{
+                padding: 20px;
+                border-radius: 30px;
+                background-color: #d7c8be;
+                border: none;
+        }
+        .input-3{
+                padding: 20px;
+                border-radius: 30px;
+                background-color: #d7c8be;
+                border: none;
+        }
+        .btn{
+                text-decoration:double;
+                background-color: rgb(224, 170, 87);
+                color:  rgb(249, 248, 248);
+                padding:1rem;
+                border-radius: 10px;
+                font-weight: bolder;
+                cursor: pointer;
+                margin: 0.5rem;
+                border: none;
+        }
+        .btn:hover{
+                letter-spacing: 0.1em;
+                box-shadow: 0 0 35px var(--clr);
+        }
+        /*.buttons{
+                display: flex;
+                flex-direction: column;
+        }*/
